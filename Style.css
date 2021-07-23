@@ -1,0 +1,127 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: url(images/14.png);
+  background-size: cover;
+}
+html{
+  scroll-behavior: smooth;
+}
+.box{
+  width: 500px;
+  height: 1900px;
+  background: rgba(25, 0 , 55, 0.09);
+  padding: 250px;
+  text-align:center;
+  top:50%;
+  margin: auto;
+  margin-top:-12%;
+  color: white;
+  font-family: "century Gothic",sans-serif;
+}
+.navbar{
+  position:absolute;
+  top: -1%;
+  height: 80px;
+  width: 100%;
+  background: rgba(0,0,0,0.4);
+}
+.box-img{
+  border-radius: 50%
+  width: 150px;
+  height: 150px;
+}
+
+.photo img{
+  height: 500px;
+    margin-top: 80px;
+    margin-right: 0px;
+    border-radius: 20%;
+  border-radius: 70%;
+}
+.minbox{
+  text-align:center;
+font-weight: 100;
+  color: white;
+  font-size: 20PX;
+  font-family: "century Gothic",sans-serif;
+}
+.uper{
+
+  display: inline-flex;
+  list-style:circle;
+  padding: 0px 20px;
+
+}
+.pic img{
+    height: 30px;
+    margin-top: 80px;
+    margin-right: 0px;
+    border-radius: 100%;
+}
+
+
+
+
+
+
+
+.navbar ul {
+  position:absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+li{
+display: inline-block;
+padding: 50px;
+
+}
+li a{
+  text-decoration: none;
+  color: white;
+  font-size: 28px;
+  font-family: sans-serif;
+  font-weight:lighter;
+  padding: 0 0px;
+
+}
+
+.hover::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: lightblue;
+    transition: width .3s;
+  }
+  .hover:hover::after{
+    width: 100%;
+    transition: width .7s;
+  }
+
+.box3 {
+    width: 500px;
+    height: 300px;
+    left: 100%;
+    background: rgba(25, 55 , 0, 0.08);
+    font-family: "century Gothic",sans-serif;
+}
+
+.box4 {
+    width: 500px;
+    height: 300px;
+    align-items: center;
+    left: 100%;
+    background: rgba(25, 55 , 0, 0.08);
+    font-family: "century Gothic",sans-serif;
+}
+
+
+
+
+
+.onlcon{
+  text-align: center;
+  font-size: 28px;
+}
